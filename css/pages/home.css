@@ -4,6 +4,7 @@
 /* 3rd-party */
 @import '../3rd-party/font-awesome.min.css';
 /* components */
+@import '../components/button.css';
 @import '../components/clock.css';
 @import '../components/mouse.css';
 @import '../components/progress-bar.css';
@@ -26,6 +27,8 @@
     flex-direction: column;
     gap: 30px;
     text-align: center;
+    align-content: center;
+    align-items: center;
 }
 
 .logo {
